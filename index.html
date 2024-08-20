@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <nav class="py-3">
+      <div
+        class="container d-flex justify-content-between align-content-center"
+      >
+        <div
+          class="logo text-white d-flex justify-content-center align-items-center ms-5"
+        >
+          <i class="fa-solid fa-cloud fs-1 mb-3"></i>
+          <div class="navbar-text mx-2">
+            <h1 class="text-capitalize h6 mb-1">Weather</h1>
+            <p>Tagline goes here</p>
+          </div>
+        </div>
+        <button id="navBtn" class="d-none fs-4 m-5">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="nav-right">
+          <ul
+            class="d-flex text-capitalize justify-content-center align-items-center list-unstyled"
+          >
+            <li>
+              <a id="homeNav" class="text-decoration-none" href="#">Home</a>
+            </li>
+            <li><a class="text-decoration-none" href="#">News</a></li>
+            <li><a class="text-decoration-none" href="#">Live Cameras</a></li>
+            <li><a class="text-decoration-none" href="#">Photo</a></li>
+            <li><a class="text-decoration-none" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="w-100 mb-5 py-2">
+      <div class="container w-75">
+        <div class="row">
+          <div class="col-md-12 py-4 mt-5">
+            <div
+              class="form-control bg-transparent border-0 mx-auto position-relative"
+            >
+              <input
+                class="py-3 px-3"
+                placeholder="Find your location..."
+                type="text"
+                id="search"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container w-75">
+        <div class="row gx-0 ms-1" id="rowData"></div>
+      </div>
+    </header>
+    <footer
+      class="mt-5 d-flex flex-column justify-content-center align-items-center"
+    >
+      <div
+        class="container container d-flex flex-column justify-content-center align-items-center"
+      >
+        <p>&copy; 2024 Weather App. All rights reserved.</p>
+        <p
+          class="d-flex m-5 translate-middle- justify-content-center align-content-center"
+        >
+          <a href="#"
+            ><i class="mx-3 fa-brands translate-middle-y fa-facebook fa-4x"></i
+          ></a>
+          <a href="#"
+            ><i class="mx-3 translate-middle-y fa-brands fa-twitter fa-4x"></i
+          ></a>
+          <a href="#"
+            ><i class="mx-3 fa-brands fa-instagram translate-middle-y fa-4x"></i
+          ></a>
+          <a href="#"
+            ><i class="mx-3 fa-brands fa-linkedin translate-middle-y fa-4x"></i
+          ></a>
+        </p>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>

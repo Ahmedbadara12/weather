@@ -1,0 +1,127 @@
+body {
+  background-color: #1e202b;
+  color: #bfc1c8;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+nav {
+  background-color: #1e202b;
+}
+nav .container .nav-right ul li {
+  margin: 25px;
+}
+nav .container .nav-right ul li a {
+  color: white;
+  padding: 5px 15px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  transition: 0.3s ease;
+
+  font-weight: 400;
+}
+nav .container .logo i {
+  color: #06a4da;
+}
+nav .container .logo .navbar-text p {
+  font-size: 10px;
+}
+#homeNav {
+  padding: 5px 25px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+
+  font-weight: 400;
+  border-color: #009ad8;
+  color: #009ad8;
+}
+nav .container .nav-right ul li a:hover {
+  border-color: #009ad8;
+  color: #009ad8;
+}
+nav .container button {
+  color: white;
+  padding: 5px 15px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  transition: 0.3s ease;
+  background-color: #1e202b;
+
+  font-weight: 400;
+}
+nav .container button:hover {
+  border-color: #009ad8;
+  color: #009ad8;
+}
+@media (max-width: 600px) {
+  nav .container .nav-right {
+    display: none;
+    padding: 0 0 0 0 !important;
+  }
+  nav .container button {
+    display: block !important;
+  }
+}
+header {
+  background-image: url(../images/banner.png);
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header.container .row {
+  background-color: transparent;
+}
+header .container .row .col-md-12 .form-control #search {
+  width: 100%;
+  padding: 15px 25px 10px 10px;
+  background: #1e202b;
+  color: white;
+  outline: none;
+  border: none;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  border-radius: 30px;
+}
+header .container .row .col-md-12 .form-control #searchBtn {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  bottom: 12px;
+  border: none;
+  background: #009ad8;
+  border-radius: 30px;
+  color: white;
+  outline: none;
+}
+header .container .row .col-md-4 .card {
+  background-color: #323544;
+  height: 60vh;
+}
+header .container .row .col-md-4 .card .card-top {
+  background-color: #2d303d;
+  color: #bfc1c8;
+  font-size: 14px;
+}
+header .container .row .col-md-4 .card .card-body {
+  color: #bfc1c8;
+}
+header .container .row .col-md-4 .card .card-body h1 {
+  font-size: 4rem;
+}
+header .container .row .col-md-4 .card .card-top-black {
+  background-color: #222530;
+  color: #bfc1c8;
+}
+#blackBody {
+  background-color: #262936;
+  color: #bfc1c8;
+}
+footer {
+  background-color: #262936;
+}
+footer div p a i:hover {
+  color: #009ad8;
+}
